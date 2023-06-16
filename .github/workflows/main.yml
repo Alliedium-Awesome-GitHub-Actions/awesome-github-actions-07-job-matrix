@@ -12,9 +12,6 @@ jobs:
         exclude:
         - os: ubuntu-18.04
           node: 12
-            #         include:
-            #         - os: macos-latest
-            #           node: 10
 
 #     runs-on: ${{ matrix.os }}
     runs-on: self-hosted
